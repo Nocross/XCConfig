@@ -32,6 +32,8 @@
 		0CB7E6751A5F1F44006B08C4 /* Static-Lib.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Lib.xcconfig"; sourceTree = "<group>"; };
 		0CB7E6771A5F1F44006B08C4 /* Temp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Temp.xcconfig; sourceTree = "<group>"; };
 		0CB7E6781A5F1F44006B08C4 /* Template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Template.xcconfig; sourceTree = "<group>"; };
+		0CB7E67A1A5F2305006B08C4 /* Swift-Bridge.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Swift-Bridge.xcconfig"; sourceTree = "<group>"; };
+		0CB7E67B1A5F2305006B08C4 /* Swift.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Swift.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				0CB7E6581A5F1F44006B08C4 /* Base.xcconfig */,
+				0CB7E6791A5F2305006B08C4 /* Swift */,
 				0CB7E6591A5F1F44006B08C4 /* Configurations */,
 				0CB7E65C1A5F1F44006B08C4 /* DerivedData */,
 				0CB7E66B1A5F1F44006B08C4 /* Platforms */,
@@ -136,6 +139,15 @@
 				0CB7E6781A5F1F44006B08C4 /* Template.xcconfig */,
 			);
 			path = Template;
+			sourceTree = "<group>";
+		};
+		0CB7E6791A5F2305006B08C4 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E67A1A5F2305006B08C4 /* Swift-Bridge.xcconfig */,
+				0CB7E67B1A5F2305006B08C4 /* Swift.xcconfig */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
