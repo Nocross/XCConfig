@@ -1,0 +1,26 @@
+//
+//  iOS.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 26/10/14.
+//  Copyright (c) 2014 Andrey Ilskiy. All rights reserved.
+//
+
+//Architectures
+
+ARCHS = $(ARCHS_STANDART)
+SDKROOT = iphoneos
+SUPPORTED_PLATFORMS = iphonesimulator iphoneos
+VALID_ARCHS = arm64 armv7 armv7s
+
+//Code Signing
+
+CODE_SIGN_IDENTITY[sdk=iphonesimulator*] =
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+
+//Deployment
+
+TARGETED_DEVICE_FAMILY = 1,2
+IPHONEOS_DEPLOYMENT_TARGET = 8.1
+
+PRODUCT_NAME = $(inherited)Touch

@@ -1,0 +1,11 @@
+//
+//  Embedded.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 08/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+SKIP_INSTALL = YES
+DYLIB_INSTALL_NAME_BASE = @rpath
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/Frameworks

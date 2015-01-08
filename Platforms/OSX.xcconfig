@@ -1,0 +1,22 @@
+//
+//  OSX.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 08/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+//Architectures
+
+ARCHS = $(ARCHS_STANDART)
+SDKROOT = macosx
+SUPPORTED_PLATFORMS = macosx
+VALID_ARCHS = i386 x86_64
+
+//Code Signing
+
+CODE_SIGN_IDENTITY = iPhone Developer
+
+//Deployment
+
+MACOSX_DEPLOYMENT_TARGET = 10.10

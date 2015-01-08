@@ -1,0 +1,14 @@
+//
+//  Application.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 08/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+MACH_O_TYPE = mh_execute
+LD_RUNPATH_SEARCH_PATHS = $(inherited)
+WRAPPER_EXTENSION = app
+
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage

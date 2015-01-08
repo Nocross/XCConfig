@@ -1,0 +1,43 @@
+//
+//  Debug.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 26/10/14.
+//  Copyright (c) 2014 Andrey Ilskiy. All rights reserved.
+//
+
+//:configuration = Debug
+
+//Architectures
+
+ONLY_ACTIVE_ARCH = YES
+
+//Build Options
+
+DEBUG_INFORMATION_FORMAT = dwarf
+VALIDATE_PRODUCT = NO
+
+//Deployment
+
+COPY_PHASE_STRIP = NO
+SKIP_INSTALL = YES
+
+
+//Linking
+
+DEAD_CODE_STRIPPING = NO
+
+//Code Generation
+
+LLVM_LTO = NO
+GCC_DYNAMIC_NO_PIC = NO
+GCC_OPTIMIZATION_LEVEL = 0
+
+//Preprocessing
+
+ENABLE_NS_ASSERTIONS = YES
+GCC_PREPROCESSOR_DEFINITIONS = DEBUG=1 $(inherited)
+
+//User-Defined
+
+MTL_ENABLE_DEBUG_INFO = YES

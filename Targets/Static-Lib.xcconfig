@@ -1,0 +1,23 @@
+//
+//  Static-Lib.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 26/10/14.
+//  Copyright (c) 2014 Andrey Ilskiy. All rights reserved.
+//
+
+//Linking
+
+LINK_WITH_STANDARD_LIBRARIES = YES
+MACH_O_TYPE = staticlib
+
+OTHER_LDFLAGS = -ObjC
+
+GENERATE_MASTER_OBJECT_FILE = YES
+
+//Packaging
+EXECUTABLE_EXTENSION = a
+EXECUTABLE_PREFIX = lib
+
+PUBLIC_HEADERS_FOLDER_PATH = "Headers/"
+
