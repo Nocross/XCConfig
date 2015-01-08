@@ -1,0 +1,192 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		0CB7E6581A5F1F44006B08C4 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		0CB7E65A1A5F1F44006B08C4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		0CB7E65B1A5F1F44006B08C4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		0CB7E6601A5F1F44006B08C4 /* db.xcindexdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.xcindexdb; sourceTree = "<group>"; };
+		0CB7E6611A5F1F44006B08C4 /* db.xcindexdb-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb-shm"; sourceTree = "<group>"; };
+		0CB7E6621A5F1F44006B08C4 /* db.xcindexdb-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb-wal"; sourceTree = "<group>"; };
+		0CB7E6631A5F1F44006B08C4 /* db.xcindexdb.strings-cmp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-cmp"; sourceTree = "<group>"; };
+		0CB7E6641A5F1F44006B08C4 /* db.xcindexdb.strings-dir */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-dir"; sourceTree = "<group>"; };
+		0CB7E6651A5F1F44006B08C4 /* db.xcindexdb.strings-file */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-file"; sourceTree = "<group>"; };
+		0CB7E6661A5F1F44006B08C4 /* db.xcindexdb.strings-moduleurl */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-moduleurl"; sourceTree = "<group>"; };
+		0CB7E6671A5F1F44006B08C4 /* db.xcindexdb.strings-res */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-res"; sourceTree = "<group>"; };
+		0CB7E6681A5F1F44006B08C4 /* db.xcindexdb.strings-sym */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-sym"; sourceTree = "<group>"; };
+		0CB7E6691A5F1F44006B08C4 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
+		0CB7E66A1A5F1F44006B08C4 /* scm.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = scm.plist; sourceTree = "<group>"; };
+		0CB7E66C1A5F1F44006B08C4 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		0CB7E66D1A5F1F44006B08C4 /* OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = OSX.xcconfig; sourceTree = "<group>"; };
+		0CB7E66F1A5F1F44006B08C4 /* Application-Embedding.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-Embedding.xcconfig"; sourceTree = "<group>"; };
+		0CB7E6701A5F1F44006B08C4 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		0CB7E6711A5F1F44006B08C4 /* Embedded.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Embedded.xcconfig; sourceTree = "<group>"; };
+		0CB7E6721A5F1F44006B08C4 /* Embedding.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Embedding.xcconfig; sourceTree = "<group>"; };
+		0CB7E6731A5F1F44006B08C4 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		0CB7E6741A5F1F44006B08C4 /* Module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Module.xcconfig; sourceTree = "<group>"; };
+		0CB7E6751A5F1F44006B08C4 /* Static-Lib.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Lib.xcconfig"; sourceTree = "<group>"; };
+		0CB7E6771A5F1F44006B08C4 /* Temp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Temp.xcconfig; sourceTree = "<group>"; };
+		0CB7E6781A5F1F44006B08C4 /* Template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Template.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0CB7E6501A5F1EB0006B08C4 = {
+			isa = PBXGroup;
+			children = (
+				0CB7E6571A5F1F44006B08C4 /* XCConfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0CB7E6571A5F1F44006B08C4 /* XCConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E6581A5F1F44006B08C4 /* Base.xcconfig */,
+				0CB7E6591A5F1F44006B08C4 /* Configurations */,
+				0CB7E65C1A5F1F44006B08C4 /* DerivedData */,
+				0CB7E66B1A5F1F44006B08C4 /* Platforms */,
+				0CB7E66E1A5F1F44006B08C4 /* Targets */,
+				0CB7E6761A5F1F44006B08C4 /* Template */,
+			);
+			path = XCConfig;
+			sourceTree = "<group>";
+		};
+		0CB7E6591A5F1F44006B08C4 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E65A1A5F1F44006B08C4 /* Debug.xcconfig */,
+				0CB7E65B1A5F1F44006B08C4 /* Release.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		0CB7E65C1A5F1F44006B08C4 /* DerivedData */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E65D1A5F1F44006B08C4 /* XCConfig */,
+			);
+			path = DerivedData;
+			sourceTree = "<group>";
+		};
+		0CB7E65D1A5F1F44006B08C4 /* XCConfig */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E65E1A5F1F44006B08C4 /* Index */,
+				0CB7E6691A5F1F44006B08C4 /* info.plist */,
+				0CB7E66A1A5F1F44006B08C4 /* scm.plist */,
+			);
+			path = XCConfig;
+			sourceTree = "<group>";
+		};
+		0CB7E65E1A5F1F44006B08C4 /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E65F1A5F1F44006B08C4 /* XCConfig.xcindex */,
+			);
+			path = Index;
+			sourceTree = "<group>";
+		};
+		0CB7E65F1A5F1F44006B08C4 /* XCConfig.xcindex */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E6601A5F1F44006B08C4 /* db.xcindexdb */,
+				0CB7E6611A5F1F44006B08C4 /* db.xcindexdb-shm */,
+				0CB7E6621A5F1F44006B08C4 /* db.xcindexdb-wal */,
+				0CB7E6631A5F1F44006B08C4 /* db.xcindexdb.strings-cmp */,
+				0CB7E6641A5F1F44006B08C4 /* db.xcindexdb.strings-dir */,
+				0CB7E6651A5F1F44006B08C4 /* db.xcindexdb.strings-file */,
+				0CB7E6661A5F1F44006B08C4 /* db.xcindexdb.strings-moduleurl */,
+				0CB7E6671A5F1F44006B08C4 /* db.xcindexdb.strings-res */,
+				0CB7E6681A5F1F44006B08C4 /* db.xcindexdb.strings-sym */,
+			);
+			path = XCConfig.xcindex;
+			sourceTree = "<group>";
+		};
+		0CB7E66B1A5F1F44006B08C4 /* Platforms */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E66C1A5F1F44006B08C4 /* iOS.xcconfig */,
+				0CB7E66D1A5F1F44006B08C4 /* OSX.xcconfig */,
+			);
+			path = Platforms;
+			sourceTree = "<group>";
+		};
+		0CB7E66E1A5F1F44006B08C4 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E66F1A5F1F44006B08C4 /* Application-Embedding.xcconfig */,
+				0CB7E6701A5F1F44006B08C4 /* Application.xcconfig */,
+				0CB7E6711A5F1F44006B08C4 /* Embedded.xcconfig */,
+				0CB7E6721A5F1F44006B08C4 /* Embedding.xcconfig */,
+				0CB7E6731A5F1F44006B08C4 /* Framework.xcconfig */,
+				0CB7E6741A5F1F44006B08C4 /* Module.xcconfig */,
+				0CB7E6751A5F1F44006B08C4 /* Static-Lib.xcconfig */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		0CB7E6761A5F1F44006B08C4 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				0CB7E6771A5F1F44006B08C4 /* Temp.xcconfig */,
+				0CB7E6781A5F1F44006B08C4 /* Template.xcconfig */,
+			);
+			path = Template;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		0CB7E6511A5F1EB0006B08C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+			};
+			buildConfigurationList = 0CB7E6541A5F1EB0006B08C4 /* Build configuration list for PBXProject "XCConfig" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CB7E6501A5F1EB0006B08C4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0CB7E6551A5F1EB0006B08C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0CB7E6561A5F1EB0006B08C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CB7E6541A5F1EB0006B08C4 /* Build configuration list for PBXProject "XCConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CB7E6551A5F1EB0006B08C4 /* Debug */,
+				0CB7E6561A5F1EB0006B08C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CB7E6511A5F1EB0006B08C4 /* Project object */;
+}
