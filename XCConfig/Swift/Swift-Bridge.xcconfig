@@ -1,0 +1,12 @@
+//
+//  Swift-Bridge.xcconfig
+//  SPX
+//
+//  Created by Andrey Ilskiy on 08/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+#include "Swift.xcconfig"
+
+SWIFT_INSTALL_OBJC_HEADER = YES
+SWIFT_OBJC_BRIDGING_HEADER = $(TARGET_NAME)/Supporting Files/$(PRODUCT_MODULE_NAME)-Bridging-Header.h
