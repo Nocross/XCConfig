@@ -22,5 +22,3 @@ CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 
 TARGETED_DEVICE_FAMILY = 1,2
 IPHONEOS_DEPLOYMENT_TARGET = 8.1
-
-PRODUCT_NAME = $(inherited)Touch

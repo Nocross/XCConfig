@@ -33,7 +33,7 @@ SEPARATE_STRIP = NO
 
 //Packaging
 
-INFOPLIST_FILE = $(TARGET_NAME)/Supporting Files/$(TARGET_NAME)-Info.plist
+INFOPLIST_FILE = $(TARGET_NAME)/Supporting Files/Info.plist
 
 
 
