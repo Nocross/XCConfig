@@ -1,0 +1,17 @@
+//
+//  Language-Objective-C.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+//Language - Objective C
+
+GCC_ENABLE_OBJC_EXCEPTIONS = YES
+CLANG_LINK_OBJC_RUNTIME = YES
+CLANG_ENABLE_OBJC_ARC = YES
+
+//Preprocessing
+
+ENABLE_STRICT_OBJC_MSGSEND = YES

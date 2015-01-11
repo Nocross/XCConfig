@@ -1,0 +1,12 @@
+//
+//  Static-Analyzer.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+#include "Static Analyzer/Static-Analyzer-Analysis-Policy.xcconfig"
+#include "Static Analyzer/Static-Analyzer-Generic.xcconfig"
+#include "Static Analyzer/Static-Analyzer-Objective-C.xcconfig"
+#include "Static-Analyzer/Static-Analyzer-Security.xcconfig"

@@ -1,0 +1,13 @@
+//
+//  Warnings-Policies.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+//Warning Policies
+
+GCC_WARN_INHIBIT_ALL_WARNINGS = NO
+GCC_WARN_PEDANTIC = YES
+GCC_TREAT_WARNINGS_AS_ERRORS = NO

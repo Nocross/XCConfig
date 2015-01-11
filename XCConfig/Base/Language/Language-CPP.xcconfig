@@ -1,0 +1,12 @@
+//
+//  Language-CPP.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+// Language - C++
+
+CLANG_CXX_LANGUAGE_STANDARD = gnu++14
+CLANG_CXX_LIBRARY = libc++

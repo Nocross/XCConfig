@@ -1,6 +1,6 @@
 //
 //  Template.xcconfig
-//  SPX
+//  XCConfigs
 //
 //  Created by Andrey Ilskiy on 27/10/14.
 //  Copyright (c) 2014 Andrey Ilskiy. All rights reserved.
@@ -154,7 +154,7 @@ TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO
 CURRENT_PROJECT_VERSION
 VERSION_INFO_FILE
 VERSION_INFO_EXPORT_DECL
-VERSION_INFO_PREFIX = SPX
+VERSION_INFO_PREFIX = XCConfigs
 VERSION_INFO_SUFFIX
 VERSIONING_SYSTEM = apple-generic
 VERSION_INFO_BUILDER

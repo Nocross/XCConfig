@@ -1,6 +1,6 @@
 //
 //  Temp.xcconfig
-//  SPX
+//  XCConfigs
 //
 //  Created by Andrey Ilskiy on 26/10/14.
 //  Copyright (c) 2014 Andrey Ilskiy. All rights reserved.
@@ -61,7 +61,7 @@ TREAT_MISSING_BASELINES_AS_TEST_FAILURES = NO
 
 //Versioning
 
-VERSION_INFO_PREFIX = SPX
+VERSION_INFO_PREFIX = XCConfigs
 
 VERSIONING_SYSTEM = apple-generic
 

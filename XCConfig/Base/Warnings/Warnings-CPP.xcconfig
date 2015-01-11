@@ -1,0 +1,15 @@
+//
+//  Warnings-CPP.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+// Warnings - C++
+
+CLANG_WARN__EXIT_TIME_DESTRUCTORS = YES
+GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES
+GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES
+GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES
+CLANG_WARN_CXX0X_EXTENSIONS = YES

@@ -7,147 +7,167 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		0CB7E6581A5F1F44006B08C4 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
-		0CB7E65A1A5F1F44006B08C4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		0CB7E65B1A5F1F44006B08C4 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		0CB7E6601A5F1F44006B08C4 /* db.xcindexdb */ = {isa = PBXFileReference; lastKnownFileType = file; path = db.xcindexdb; sourceTree = "<group>"; };
-		0CB7E6611A5F1F44006B08C4 /* db.xcindexdb-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb-shm"; sourceTree = "<group>"; };
-		0CB7E6621A5F1F44006B08C4 /* db.xcindexdb-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb-wal"; sourceTree = "<group>"; };
-		0CB7E6631A5F1F44006B08C4 /* db.xcindexdb.strings-cmp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-cmp"; sourceTree = "<group>"; };
-		0CB7E6641A5F1F44006B08C4 /* db.xcindexdb.strings-dir */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-dir"; sourceTree = "<group>"; };
-		0CB7E6651A5F1F44006B08C4 /* db.xcindexdb.strings-file */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-file"; sourceTree = "<group>"; };
-		0CB7E6661A5F1F44006B08C4 /* db.xcindexdb.strings-moduleurl */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-moduleurl"; sourceTree = "<group>"; };
-		0CB7E6671A5F1F44006B08C4 /* db.xcindexdb.strings-res */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-res"; sourceTree = "<group>"; };
-		0CB7E6681A5F1F44006B08C4 /* db.xcindexdb.strings-sym */ = {isa = PBXFileReference; lastKnownFileType = file; path = "db.xcindexdb.strings-sym"; sourceTree = "<group>"; };
-		0CB7E6691A5F1F44006B08C4 /* info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = info.plist; sourceTree = "<group>"; };
-		0CB7E66A1A5F1F44006B08C4 /* scm.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = scm.plist; sourceTree = "<group>"; };
-		0CB7E66C1A5F1F44006B08C4 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
-		0CB7E66D1A5F1F44006B08C4 /* OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = OSX.xcconfig; sourceTree = "<group>"; };
-		0CB7E66F1A5F1F44006B08C4 /* Application-Embedding.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Application-Embedding.xcconfig"; sourceTree = "<group>"; };
-		0CB7E6701A5F1F44006B08C4 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		0CB7E6711A5F1F44006B08C4 /* Embedded.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Embedded.xcconfig; sourceTree = "<group>"; };
-		0CB7E6721A5F1F44006B08C4 /* Embedding.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Embedding.xcconfig; sourceTree = "<group>"; };
-		0CB7E6731A5F1F44006B08C4 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
-		0CB7E6741A5F1F44006B08C4 /* Module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Module.xcconfig; sourceTree = "<group>"; };
-		0CB7E6751A5F1F44006B08C4 /* Static-Lib.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Lib.xcconfig"; sourceTree = "<group>"; };
-		0CB7E6771A5F1F44006B08C4 /* Temp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Temp.xcconfig; sourceTree = "<group>"; };
-		0CB7E6781A5F1F44006B08C4 /* Template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Template.xcconfig; sourceTree = "<group>"; };
-		0CB7E67A1A5F2305006B08C4 /* Swift-Bridge.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Swift-Bridge.xcconfig"; sourceTree = "<group>"; };
-		0CB7E67B1A5F2305006B08C4 /* Swift.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Swift.xcconfig; sourceTree = "<group>"; };
+		0C43ED971A62AED60059AD93 /* Code-Generation.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Code-Generation.xcconfig"; sourceTree = "<group>"; };
+		0C43ED991A62AED60059AD93 /* Language-CPP.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Language-CPP.xcconfig"; sourceTree = "<group>"; };
+		0C43ED9A1A62AED60059AD93 /* Language-Modules.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Language-Modules.xcconfig"; sourceTree = "<group>"; };
+		0C43ED9B1A62AED60059AD93 /* Language-Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Language-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		0C43ED9C1A62AED60059AD93 /* Language.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Language.xcconfig; sourceTree = "<group>"; };
+		0C43ED9D1A62AED60059AD93 /* Language.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Language.xcconfig; sourceTree = "<group>"; };
+		0C43ED9F1A62AED60059AD93 /* Static-Analyzer-Analysis-Policy.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer-Analysis-Policy.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA01A62AED60059AD93 /* Static-Analyzer-Generic.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer-Generic.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA11A62AED60059AD93 /* Static-Analyzer-Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA21A62AED60059AD93 /* Static-Analyzer-Security.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer-Security.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA31A62AED60059AD93 /* Static-Analyzer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Analyzer.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA51A62AED60059AD93 /* Warnings-All-Languages.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-All-Languages.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA61A62AED60059AD93 /* Warnings-CPP.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-CPP.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA71A62AED60059AD93 /* Warnings-Objective-C-ARC.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-Objective-C-ARC.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA81A62AED60059AD93 /* Warnings-Objective-C.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-Objective-C.xcconfig"; sourceTree = "<group>"; };
+		0C43EDA91A62AED60059AD93 /* Warnings-Policies.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Warnings-Policies.xcconfig"; sourceTree = "<group>"; };
+		0C43EDAA1A62AED60059AD93 /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		0C43EDAB1A62AED60059AD93 /* Base.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
+		0C43EDAD1A62AED60059AD93 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		0C43EDAE1A62AED60059AD93 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		0C43EDB01A62AED60059AD93 /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		0C43EDB11A62AED60059AD93 /* OSX.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = OSX.xcconfig; sourceTree = "<group>"; };
+		0C43EDB31A62AED60059AD93 /* Swift-Bridge.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Swift-Bridge.xcconfig"; sourceTree = "<group>"; };
+		0C43EDB41A62AED60059AD93 /* Swift.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Swift.xcconfig; sourceTree = "<group>"; };
+		0C43EDB71A62AED60059AD93 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		0C43EDB81A62AED60059AD93 /* Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Framework.xcconfig; sourceTree = "<group>"; };
+		0C43EDBA1A62AED60059AD93 /* Embedded.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Embedded.xcconfig; sourceTree = "<group>"; };
+		0C43EDBB1A62AED60059AD93 /* Embedding-Swift.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Embedding-Swift.xcconfig"; sourceTree = "<group>"; };
+		0C43EDBC1A62AED60059AD93 /* Embedding.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Embedding.xcconfig; sourceTree = "<group>"; };
+		0C43EDBD1A62AED60059AD93 /* Module.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Module.xcconfig; sourceTree = "<group>"; };
+		0C43EDBE1A62AED60059AD93 /* Static-Lib.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Static-Lib.xcconfig"; sourceTree = "<group>"; };
+		0C43EDC01A62AED60059AD93 /* Temp.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Temp.xcconfig; sourceTree = "<group>"; };
+		0C43EDC11A62AED60059AD93 /* Template.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Template.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		0CB7E6501A5F1EB0006B08C4 = {
+		0C43ED951A62AED60059AD93 /* XCConfig */ = {
 			isa = PBXGroup;
 			children = (
-				0CB7E6571A5F1F44006B08C4 /* XCConfig */,
-			);
-			sourceTree = "<group>";
-		};
-		0CB7E6571A5F1F44006B08C4 /* XCConfig */ = {
-			isa = PBXGroup;
-			children = (
-				0CB7E6581A5F1F44006B08C4 /* Base.xcconfig */,
-				0CB7E6791A5F2305006B08C4 /* Swift */,
-				0CB7E6591A5F1F44006B08C4 /* Configurations */,
-				0CB7E65C1A5F1F44006B08C4 /* DerivedData */,
-				0CB7E66B1A5F1F44006B08C4 /* Platforms */,
-				0CB7E66E1A5F1F44006B08C4 /* Targets */,
-				0CB7E6761A5F1F44006B08C4 /* Template */,
+				0C43ED961A62AED60059AD93 /* Base */,
+				0C43EDAB1A62AED60059AD93 /* Base.xcconfig */,
+				0C43EDAC1A62AED60059AD93 /* Configurations */,
+				0C43EDAF1A62AED60059AD93 /* Platforms */,
+				0C43EDB21A62AED60059AD93 /* Swift */,
+				0C43EDB51A62AED60059AD93 /* Targets */,
+				0C43EDBF1A62AED60059AD93 /* Template */,
 			);
 			path = XCConfig;
 			sourceTree = "<group>";
 		};
-		0CB7E6591A5F1F44006B08C4 /* Configurations */ = {
+		0C43ED961A62AED60059AD93 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				0CB7E65A1A5F1F44006B08C4 /* Debug.xcconfig */,
-				0CB7E65B1A5F1F44006B08C4 /* Release.xcconfig */,
+				0C43ED971A62AED60059AD93 /* Code-Generation.xcconfig */,
+				0C43ED981A62AED60059AD93 /* Language */,
+				0C43ED9D1A62AED60059AD93 /* Language.xcconfig */,
+				0C43ED9E1A62AED60059AD93 /* Static Analyzer */,
+				0C43EDA31A62AED60059AD93 /* Static-Analyzer.xcconfig */,
+				0C43EDA41A62AED60059AD93 /* Warnings */,
+				0C43EDAA1A62AED60059AD93 /* Warnings.xcconfig */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		0C43ED981A62AED60059AD93 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				0C43ED991A62AED60059AD93 /* Language-CPP.xcconfig */,
+				0C43ED9A1A62AED60059AD93 /* Language-Modules.xcconfig */,
+				0C43ED9B1A62AED60059AD93 /* Language-Objective-C.xcconfig */,
+				0C43ED9C1A62AED60059AD93 /* Language.xcconfig */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		0C43ED9E1A62AED60059AD93 /* Static Analyzer */ = {
+			isa = PBXGroup;
+			children = (
+				0C43ED9F1A62AED60059AD93 /* Static-Analyzer-Analysis-Policy.xcconfig */,
+				0C43EDA01A62AED60059AD93 /* Static-Analyzer-Generic.xcconfig */,
+				0C43EDA11A62AED60059AD93 /* Static-Analyzer-Objective-C.xcconfig */,
+				0C43EDA21A62AED60059AD93 /* Static-Analyzer-Security.xcconfig */,
+			);
+			path = "Static Analyzer";
+			sourceTree = "<group>";
+		};
+		0C43EDA41A62AED60059AD93 /* Warnings */ = {
+			isa = PBXGroup;
+			children = (
+				0C43EDA51A62AED60059AD93 /* Warnings-All-Languages.xcconfig */,
+				0C43EDA61A62AED60059AD93 /* Warnings-CPP.xcconfig */,
+				0C43EDA71A62AED60059AD93 /* Warnings-Objective-C-ARC.xcconfig */,
+				0C43EDA81A62AED60059AD93 /* Warnings-Objective-C.xcconfig */,
+				0C43EDA91A62AED60059AD93 /* Warnings-Policies.xcconfig */,
+			);
+			path = Warnings;
+			sourceTree = "<group>";
+		};
+		0C43EDAC1A62AED60059AD93 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				0C43EDAD1A62AED60059AD93 /* Debug.xcconfig */,
+				0C43EDAE1A62AED60059AD93 /* Release.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
 		};
-		0CB7E65C1A5F1F44006B08C4 /* DerivedData */ = {
+		0C43EDAF1A62AED60059AD93 /* Platforms */ = {
 			isa = PBXGroup;
 			children = (
-				0CB7E65D1A5F1F44006B08C4 /* XCConfig */,
-			);
-			path = DerivedData;
-			sourceTree = "<group>";
-		};
-		0CB7E65D1A5F1F44006B08C4 /* XCConfig */ = {
-			isa = PBXGroup;
-			children = (
-				0CB7E65E1A5F1F44006B08C4 /* Index */,
-				0CB7E6691A5F1F44006B08C4 /* info.plist */,
-				0CB7E66A1A5F1F44006B08C4 /* scm.plist */,
-			);
-			path = XCConfig;
-			sourceTree = "<group>";
-		};
-		0CB7E65E1A5F1F44006B08C4 /* Index */ = {
-			isa = PBXGroup;
-			children = (
-				0CB7E65F1A5F1F44006B08C4 /* XCConfig.xcindex */,
-			);
-			path = Index;
-			sourceTree = "<group>";
-		};
-		0CB7E65F1A5F1F44006B08C4 /* XCConfig.xcindex */ = {
-			isa = PBXGroup;
-			children = (
-				0CB7E6601A5F1F44006B08C4 /* db.xcindexdb */,
-				0CB7E6611A5F1F44006B08C4 /* db.xcindexdb-shm */,
-				0CB7E6621A5F1F44006B08C4 /* db.xcindexdb-wal */,
-				0CB7E6631A5F1F44006B08C4 /* db.xcindexdb.strings-cmp */,
-				0CB7E6641A5F1F44006B08C4 /* db.xcindexdb.strings-dir */,
-				0CB7E6651A5F1F44006B08C4 /* db.xcindexdb.strings-file */,
-				0CB7E6661A5F1F44006B08C4 /* db.xcindexdb.strings-moduleurl */,
-				0CB7E6671A5F1F44006B08C4 /* db.xcindexdb.strings-res */,
-				0CB7E6681A5F1F44006B08C4 /* db.xcindexdb.strings-sym */,
-			);
-			path = XCConfig.xcindex;
-			sourceTree = "<group>";
-		};
-		0CB7E66B1A5F1F44006B08C4 /* Platforms */ = {
-			isa = PBXGroup;
-			children = (
-				0CB7E66C1A5F1F44006B08C4 /* iOS.xcconfig */,
-				0CB7E66D1A5F1F44006B08C4 /* OSX.xcconfig */,
+				0C43EDB01A62AED60059AD93 /* iOS.xcconfig */,
+				0C43EDB11A62AED60059AD93 /* OSX.xcconfig */,
 			);
 			path = Platforms;
 			sourceTree = "<group>";
 		};
-		0CB7E66E1A5F1F44006B08C4 /* Targets */ = {
+		0C43EDB21A62AED60059AD93 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				0CB7E66F1A5F1F44006B08C4 /* Application-Embedding.xcconfig */,
-				0CB7E6701A5F1F44006B08C4 /* Application.xcconfig */,
-				0CB7E6711A5F1F44006B08C4 /* Embedded.xcconfig */,
-				0CB7E6721A5F1F44006B08C4 /* Embedding.xcconfig */,
-				0CB7E6731A5F1F44006B08C4 /* Framework.xcconfig */,
-				0CB7E6741A5F1F44006B08C4 /* Module.xcconfig */,
-				0CB7E6751A5F1F44006B08C4 /* Static-Lib.xcconfig */,
+				0C43EDB31A62AED60059AD93 /* Swift-Bridge.xcconfig */,
+				0C43EDB41A62AED60059AD93 /* Swift.xcconfig */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		0C43EDB51A62AED60059AD93 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				0C43EDB71A62AED60059AD93 /* Application.xcconfig */,
+				0C43EDB81A62AED60059AD93 /* Framework.xcconfig */,
+				0C43EDB91A62AED60059AD93 /* Modifiers */,
+				0C43EDBE1A62AED60059AD93 /* Static-Lib.xcconfig */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
 		};
-		0CB7E6761A5F1F44006B08C4 /* Template */ = {
+		0C43EDB91A62AED60059AD93 /* Modifiers */ = {
 			isa = PBXGroup;
 			children = (
-				0CB7E6771A5F1F44006B08C4 /* Temp.xcconfig */,
-				0CB7E6781A5F1F44006B08C4 /* Template.xcconfig */,
+				0C43EDBA1A62AED60059AD93 /* Embedded.xcconfig */,
+				0C43EDBB1A62AED60059AD93 /* Embedding-Swift.xcconfig */,
+				0C43EDBC1A62AED60059AD93 /* Embedding.xcconfig */,
+				0C43EDBD1A62AED60059AD93 /* Module.xcconfig */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		0C43EDBF1A62AED60059AD93 /* Template */ = {
+			isa = PBXGroup;
+			children = (
+				0C43EDC01A62AED60059AD93 /* Temp.xcconfig */,
+				0C43EDC11A62AED60059AD93 /* Template.xcconfig */,
 			);
 			path = Template;
 			sourceTree = "<group>";
 		};
-		0CB7E6791A5F2305006B08C4 /* Swift */ = {
+		0CB7E6501A5F1EB0006B08C4 = {
 			isa = PBXGroup;
 			children = (
-				0CB7E67A1A5F2305006B08C4 /* Swift-Bridge.xcconfig */,
-				0CB7E67B1A5F2305006B08C4 /* Swift.xcconfig */,
+				0C43ED951A62AED60059AD93 /* XCConfig */,
 			);
-			path = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

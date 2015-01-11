@@ -1,0 +1,13 @@
+//
+//  Static-Analyzer-Generic.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+//Static Analyzer - Generic Issues
+
+CLANG_ANALYZER_DEADCODE_DEADSTORES = YES
+CLANG_ANALYZER_MEMORY_MANAGEMENT = $(CLANG_ANALYZER_MALLOC)
+CLANG_ANALYZER_GCD = YES

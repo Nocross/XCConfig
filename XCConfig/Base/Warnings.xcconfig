@@ -1,0 +1,13 @@
+//
+//  Warnings.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 11/01/15.
+//  Copyright (c) 2015 Andrey Ilskiy. All rights reserved.
+//
+
+#include "Warnings/Warnings-Policies.xcconfig"
+#include "Warnings/Warnings-All-Languages.xcconfig"
+#include "Warnings/Warnings-CPP.xcconfig"
+#include "Warnings/Warnings-Objective-C.xcconfig"
+#include "Warnings/Warnings-Objective-C-ARC.xcconfig"
