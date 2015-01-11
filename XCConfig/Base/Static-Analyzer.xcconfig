@@ -9,4 +9,4 @@
 #include "Static Analyzer/Static-Analyzer-Analysis-Policy.xcconfig"
 #include "Static Analyzer/Static-Analyzer-Generic.xcconfig"
 #include "Static Analyzer/Static-Analyzer-Objective-C.xcconfig"
-#include "Static-Analyzer/Static-Analyzer-Security.xcconfig"
+#include "Static Analyzer/Static-Analyzer-Security.xcconfig"
