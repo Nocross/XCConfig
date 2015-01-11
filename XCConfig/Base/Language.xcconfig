@@ -8,5 +8,5 @@
 
 #include "Language/Language-Generic.xcconfig"
 #include "Language/Language-CPP.xcconfig"
-#include "Language/Language-Module.xcconfig"
+#include "Language/Language-Modules.xcconfig"
 #include "Language/Language-Objective-C.xcconfig"
