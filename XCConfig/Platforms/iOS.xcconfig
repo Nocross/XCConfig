@@ -15,10 +15,10 @@ VALID_ARCHS = arm64 armv7 armv7s
 
 //Code Signing
 
-CODE_SIGN_IDENTITY[sdk=iphonesimulator*] =
+CODE_SIGN_IDENTITY[sdk=iphonesimulator*] = iPhone Developer
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 
 //Deployment
 
 TARGETED_DEVICE_FAMILY = 1,2
-IPHONEOS_DEPLOYMENT_TARGET = 8.1
+IPHONEOS_DEPLOYMENT_TARGET = 8.4
