@@ -8,6 +8,8 @@
 
 // Architectures
 
+ONLY_ACTIVE_ARCH = YES
+
 // Build Locations
 
 //Build Options
@@ -15,6 +17,7 @@
 DEBUG_INFORMATION_FORMAT = dwarf
 PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO
 ENABLE_BITCODE = NO
+ENABLE_TESTABILITY = YES
 
 //Code Signing
 
