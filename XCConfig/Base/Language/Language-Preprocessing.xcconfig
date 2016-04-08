@@ -1,0 +1,13 @@
+//
+//  Language-Preprocessing.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 04/04/16.
+//  Copyright © 2016 Andrey Ilskiy. All rights reserved.
+//
+
+//Preprocessing
+ENABLE_NS_ASSERTIONS = YES
+ENABLE_STRICT_OBJC_MSGSEND = YES
+//GCC_PREPROCESSOR_DEFINITIONS =
+//GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS =

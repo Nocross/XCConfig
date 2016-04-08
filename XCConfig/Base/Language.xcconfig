@@ -10,3 +10,4 @@
 #include "Language/Language-CPP.xcconfig"
 #include "Language/Language-Modules.xcconfig"
 #include "Language/Language-Objective-C.xcconfig"
+#include "Language/Language-Preprocessing.xcconfig"

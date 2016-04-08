@@ -77,6 +77,10 @@ TREAT_MISSING_BASELINES_AS_TEST_FAILURES = YES
 
 VERSIONING_SYSTEM = apple-generic
 
+//Address Sanitizer
+
+CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO
+
 #include "Base/Code-Generation.xcconfig"
 #include "Base/Language.xcconfig"
 #include "Base/Warnings.xcconfig"
