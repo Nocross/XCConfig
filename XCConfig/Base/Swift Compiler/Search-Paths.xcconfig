@@ -1,0 +1,10 @@
+//
+//  Search-Paths.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 19/06/16.
+//  Copyright © 2016 Andrey Ilskiy. All rights reserved.
+//
+
+SWIFT_INCLUDE_PATHS = $(inhertied)
+

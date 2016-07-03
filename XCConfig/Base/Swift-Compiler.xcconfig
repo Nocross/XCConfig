@@ -1,0 +1,14 @@
+//
+//  Swift-Compiler.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 19/06/16.
+//  Copyright © 2016 Andrey Ilskiy. All rights reserved.
+//
+
+#include "Swift Compiler/Code-Generation.xcconfig"
+#include "Swift Compiler/Custom-Flags.xcconfig"
+#include "Swift Compiler/General.xcconfig"
+#include "Swift Compiler/Search-Paths.xcconfig"
+#include "Swift Compiler/Version.xcconfig"
+#include "Swift Compiler/Warning-Policies.xcconfig"

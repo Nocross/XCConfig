@@ -1,0 +1,12 @@
+//
+//  Warning-Policies.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 19/06/16.
+//  Copyright © 2016 Andrey Ilskiy. All rights reserved.
+//
+
+SWIFT_SUPPRESS_WARNINGS = NO
+SWIFT_TREAT_WARNINGS_AS_ERRORS = NO
+
+

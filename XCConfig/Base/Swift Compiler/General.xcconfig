@@ -1,0 +1,12 @@
+//
+//  General.xcconfig
+//  XCConfigs
+//
+//  Created by Andrey Ilskiy on 19/06/16.
+//  Copyright © 2016 Andrey Ilskiy. All rights reserved.
+//
+
+SWIFT_INSTALL_OBJC_HEADER = YES
+SWIFT_OBJC_BRIDGING_HEADER = $(inhertied)
+SWIFT_OBJC_INTERFACE_HEADER_NAME = $(PRODUCT_MODULE_NAME)-Swift.h
+SWIFT_REFLECTION_METADATA_LEVEL = all
