@@ -1,6 +1,6 @@
 # XCConfig
 
-Breakdown of Xcode config to modular xcconfig files
+Breakdown of Xcode Build Settings to Modular.xcconfig files
 
 ## Reusable modular configs
 
@@ -15,4 +15,4 @@ Simplify, modularize, streamline your projects configurations
 
 ## License
 
-XCConfig is available under the MIT license. See the LICENSE file for more info.
+XCConfig is available under the MIT license. See the [LICENSE](https://github.com/Nocross/XCConfig/blob/master/LICENSE) file for more info.
