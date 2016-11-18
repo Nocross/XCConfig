@@ -31,7 +31,7 @@ CODE_SIGN_IDENTITY[sdk=iphonesimulator*] = iPhone Distribution
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
 
 //Code Generation
-LLVM_LTO = YES//_THIN
+LLVM_LTO = YES_THIN
 GCC_OPTIMIZATION_LEVEL = s
 
 //Preprocessing
