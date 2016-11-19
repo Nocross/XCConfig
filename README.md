@@ -1,6 +1,6 @@
-# XCConfig
+# XCConfigs
 
-Breakdown of Xcode Build Settings to Modular.xcconfig files
+Breakdown of Xcode Build Settings to Modular.xcconfig(s) files
 
 ## Reusable modular configs
 
